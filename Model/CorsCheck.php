@@ -13,6 +13,15 @@ use SplashLab\CorsRequests\Api\CorsCheckInterface;
  */
 class CorsCheck implements CorsCheckInterface
 {
+    /**
+     * @var \Magento\Framework\Webapi\Rest\Response $response
+     */
+    private $response;
+
+    /**
+     * @var \Magento\Framework\Webapi\Rest\Request $request
+     */
+    private $request;
 
     /**
      * Initialize dependencies.

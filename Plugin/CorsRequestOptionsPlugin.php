@@ -22,7 +22,7 @@ class CorsRequestOptionsPlugin
      * Allow Options requests from jQuery AJAX
      *
      * @param Request $subject
-     * @return void
+     * @return string
      * @throws InputException
      */
     public function aroundGetHttpMethod(
